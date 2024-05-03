@@ -152,4 +152,44 @@ position: absolute;
 left: 102px;
 }
 
+.ad-img{
+  margin-left: 5%;
+  margin-right: 5%;
+  width:90%;
+}
 
+.product{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.box {
+  position:relative;
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.box img{
+  width: 200px;
+  transition: 0.3s;
+}
+
+.caption{
+position: absolute;  
+bottom: -100%;   
+background-color: white;
+padding: 20px;
+left: 0;
+width: 100%;
+transition: 0.3s;
+}
