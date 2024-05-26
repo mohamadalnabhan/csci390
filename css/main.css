@@ -242,8 +242,8 @@ background-color: #10CAB7;
   padding-bottom: 60px;
   }
   .contact .content{
-  display: flex;
-  justify-content: space-between;
+ 
+ display: block;
   }
   .contact .content form {
   flex-basis: 70%;
