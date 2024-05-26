@@ -28,7 +28,7 @@
         </div>
           <nav>
             <ul>
-                <li> <a class="active" href="index.html">Home</a></li>
+            <li> <a class="active" href="index.php">Home</a></li>
                 <li><i class="fas fa-user"></i> <a href="Login.php">login</a></li>
               </ul>
             
@@ -178,7 +178,7 @@
           <p>harder than diamond</p>
           <div class="price">5000000BTC</div>
           <div class="buttons"  >
-            <a  href="" class="cart">to contact us</a>
+            <a  href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -197,7 +197,7 @@
           <p>core i7 13th <br>RTX3070TI <br> 16RAM <br></p>
           <div class="price">20004$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -214,7 +214,7 @@
           <p>for watch best movies </p>
           <div class="price">700$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -233,7 +233,7 @@
           <p> HD surveillance camera</p>
           <div class="price">200$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -252,7 +252,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">15$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -271,7 +271,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">20$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -290,7 +290,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">75$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -309,7 +309,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">300$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -329,7 +329,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">70$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -348,7 +348,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">130$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -367,7 +367,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">450$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
 
@@ -386,7 +386,7 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="price">25$</div>
           <div class="buttons">
-            <a href="" class="cart">to contact us</a>
+            <a href="#targetSection" class="cart">to contact us</a>
           </div>
         </div>
       </div>
@@ -402,15 +402,42 @@
           <form action="">
             <input class="main-input" type="text" name="name" placeholder="Your Name" />
             <input class="main-input" type="email" name="mail" placeholder="Your Email" />
-            <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" />
+            
+          
           </form>
           <div class="info"> 
-            <h4>Get In Touch</h4>
-            <span class="phone">+00 123.456.789</span>
-            <span class="phone">+00 123.456.789</span>
-            <h4>Where We Are</h4>
-          <address>Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA</address>
+            <h4  id="targetSection" >to order :</h4>
+            
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+            margin: 10px;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .whatsapp { background-color: #25D366; }
+        .gmail { background-color: #D44638; }
+    </style>
+    <button class="button whatsapp" onclick="window.open('https://wa.me/+96181670354')">WhatsApp</button>
+    <button class="button gmail" onclick="window.open('mailto:mohamadalnabhanbusn@gmail.com', '_blank')">Gmail</button>
           </div>
           </div>
         </div>
